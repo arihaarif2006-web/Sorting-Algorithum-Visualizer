@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #edf6f9, #d8f3dc); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #344e41;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #2d6a4f;
+}
+
+.subtitle{
+    color: #52796f;
+    margin-bottom: 20px;
+}
+
+/* ARRAY BARS */
+#array{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    height:450px;
+    margin: 30px 0;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    padding: 35px 0;
+}
+
+/* Bars */
+.bar{
+    width:25px;
+    margin:3px;
+    background: linear-gradient(180deg, #95d5b2, #52b788); 
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.bar span{
+    position: absolute;
+    bottom: -20px;
+    font-size: 11px;
+    color: #52796f;
+}
+
+/* CONTROLS */
+.controls, .algorithms{
+    margin: 15px 0;
+}
+
+input{
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    width: 200px;
+    margin: 5px;
+    background-color: #ffffff;
+    color: #344e41;
+}
+
+/* BUTTON STYLE*/
+button{
+    background: linear-gradient(135deg, #74c69d, #52b788);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    margin: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+/* Algorithm buttons */
+.algorithms button{
+    background: linear-gradient(135deg, #b7e4c7, #95d5b2);
+    color: #344e41;
+}
+
+/* INFO BOX */
+#info{
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+}
+
+#definition{
+    font-size: 15px;
+    color: #344e41;
+}

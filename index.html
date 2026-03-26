@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1> Sorting Algorithm Visualizer</h1>
+
+    <p class="subtitle">
+        Create your own array (1–150) or generate one instantly
+    </p>
+
+    
+
+    <div class="controls">
+        <button onclick="generateArray()">Generate Array</button>
+
+        <input type="text" id="userInput" placeholder="e.g 5,3,8,1">
+        <button onclick="createArrayFromInput()">Create Array</button>
+    </div>
+
+    <div class="algorithms">
+        <button onclick="setInfo('bubble'); bubbleSort()">Bubble</button>
+        <button onclick="setInfo('insertion'); insertionSort()">Insertion</button>
+        <button onclick="setInfo('quick'); quickSortStart()">Quick</button>
+        <button onclick="setInfo('merge'); mergeSortStart()">Merge</button>
+    </div>
+
+    <div id="info">
+        <p id="definition">
+            Select an algorithm to see its definition and working.
+        </p>
+    </div>
+
+    <div id="array"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

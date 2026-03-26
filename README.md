@@ -78,7 +78,8 @@ This project is designed for learning and demonstration purposes in the field of
 ## Screenshot
 Full Visualizer
 ![Full Visualizer](assets/screenshot/full_visualizer.png)
-Sorting Array
-![Sorting Array](assets/screenshot/sorted_array.png)
 User Input Array
 ![User Input Array](assets/screenshot/user_input.png)
+User Sorted Array
+![Sorted Array](assets/screenshot/sorted_array.png)
+
